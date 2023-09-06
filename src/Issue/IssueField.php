@@ -356,6 +356,7 @@ class IssueField implements \JsonSerializable
     }
 
     public function setParent(?Issue $parent): void
+
     {
         $this->parent = $parent;
     }
